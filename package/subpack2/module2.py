@@ -3,3 +3,9 @@ class person:
     self.name = name
     self.yob = yob
     self.ht = ht
+
+
+class player:
+  def __init__(self, x, y):
+    self.x = x
+    self.y = y
